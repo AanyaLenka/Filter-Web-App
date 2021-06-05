@@ -1,0 +1,24 @@
+#tag
+{
+font-size:22px;
+font-family:cursive;
+color:lightseagreen;
+}
+
+.btn-success:hover
+{
+background-color: maroon;
+}
+
+canvas
+{
+animation-name:aanya;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes aanya
+{
+from{box-shadow:1px 1px 38px purple;}
+to{box-shadow:1px 1px 38px lightsalmon;}
+}
